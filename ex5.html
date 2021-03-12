@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> ex5</title>
+	<script type="text/javascript">
+		function check(Номер страницы, Лимит) {
+			if (Номер страницы>10) {
+				alert("номер вне диапозона от 1 до 10")
+			}
+			if (Лимит>10) {
+				alert("Лимит вне диапозона от 1 до 10")
+			}
+			if (номер страницыб Лимит>10) {
+				alert("Номер и лимит вне диапозона")
+			}
+			if (номер<=10) {
+				action="https://picsum.photos/v2/list?page=1&limit=10"
+			}
+		}
+	</script>
+</head>
+<body>
+<form method="get">
+	<input type="number" name="Номер страницы">
+	<input type="number" name="Лимит">
+	<button> Запрос</button>
+</form>
+</body>
+</html>
